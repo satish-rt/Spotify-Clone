@@ -29,7 +29,7 @@ Open the index.html file in your browser to view the Spotify clone.
 Explore the code to understand how the layout and styling are implemented using HTML and CSS.
 
 Folder Structure
-Spotify-Clone-HTML-CSS/
+Spotify-Clone/
 ├── index.html          # Main HTML file
 ├── styles/             # CSS files
 │   └── style.css       # Main stylesheet
