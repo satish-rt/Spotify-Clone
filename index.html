@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title> Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+           <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="photos/library_icon.png" alt="library_icon">
+                    <a href="#">Your Library</a>
+                </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i> 
+                        <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">Create your first platlist</p>
+                    <p class="box-p2">It's easy,we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="photos/backward_icon.png" alt="backward_icon">
+                    <img src="photos/forward_icon.png" alt="forward_icon" class="hide">
+                </div>
+               <div class="sticky-nav-optipns">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"> <i class="fa-regular fa-circle-down"></i> Install App</button>
+                <i class="fa-regular fa-user nav-item"></i>  
+               </div>
+               
+            </div>
+                <div class="cards-container1">
+                    <div class="song-card">
+                        <img src="photos/Winningspeech.jpeg" alt="Album Cover">
+                        <div class="song-info">
+                            <div class="title">Winning Speech</div>
+                            <div class="subtitle">(From " Karan Aujla") (Punjabi)</div>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <img src="photos/Goat.jpeg" alt="Album Cover">
+                        <div class="song-info">
+                            <div class="title">G.O.A.T</div>
+                            <div class="subtitle">(From "Diljit Dosanjh") (Punjabi)</div>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <img src="photos/Aaya Re Toofan.jpeg" alt="Album Cover">
+                        <div class="song-info">
+                            <div class="title">Aaya Re Toofan</div>
+                            <div class="subtitle">(From &quot;Chhaava&quot;) (Hindi)</div>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <img src="photos/Shape of You.jpeg" alt="Album Cover">
+                        <div class="song-info">
+                            <div class="title">Shape of You</div>
+                            <div class="subtitle">(From "Ed Sheeran") (English)</div>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <img src="photos/Levitating.jpeg" alt="Album Cover">
+                        <div class="song-info">
+                            <div class="title"> Levitating </div>
+                            <div class="subtitle">(From "Dua Lipa") ((English))</div>
+                        </div>
+                    </div>
+
+                    <div class="song-card">
+                        <img src="photos/Kurchi Madathapetti.jpeg" alt="Album Cover">
+                        <div class="song-info">
+                            <div class="title">Kurchi Madathapetti</div>
+                            <div class="subtitle">(From "Guntur Kaaram") (Telugu)</div>
+                        </div>
+                    </div>
+                    </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="photos/card2img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Gobal</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photos/New Releases.jpeg" class="card-img">
+                        <p class="card-title">New Releases</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photos/Pushpa 2 The Rule.jpeg" class="card-img">
+                        <p class="card-title">Pushpa 2 The Rule</p>
+                        <p class="card-info">by Devi Sri Prasad  ·  5Songs...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photos/Aaya Re Toofan.jpeg" class="card-img">
+                        <p class="card-title">Chhaava</p>
+                        <p class="card-info">by A.R. Rahman...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photos/Sky Force.jpeg" class="card-img">
+                        <p class="card-title">Sky Force</p>
+                        <p class="card-info">by Tanishk Bagchi...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="photos/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - Gobal</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photos/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="photos/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Gobal</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div> 
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="photos/Shape of You.jpeg" alt="album_picture" class="songImg">
+                <div class="songinfo">
+                    <p class="songName">Shape of Yo</p>
+                    <p class="songdis">Ed Sheeran</p>
+                </div>
+                <div class="alb-icons">
+                    <img src="photos/album_icon1.png" alt="album_icon1" class="album_icon1">
+                <img src="photos/album_icon2.png" alt="album_icon2" class="album_icon2">
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="photos/player_icon1.png" alt="player_icon" class="player-controls-icon">
+                    <img src="photos/player_icon2.png" alt="player_icon" class="player-controls-icon">
+                    <img src="photos/player_icon3.png" alt="player_icon" class="player-controls-icon" style="opacity: 1rem; height:2rem">
+                    <img src="photos/player_icon4.png" alt="player_icon" class="player-controls-icon">
+                    <img src="photos/player_icon5.png" alt="player_icon" class="player-controls-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="control">
+                <img src="photos/controls_icon1.png" alt="controls_icon1" class="controls_icon1">
+                <img src="photos/controld_icon2.png" alt="controld_icon2" class="controls_icon2">
+                <img src="photos/controls_icon3.png" alt="controls_icon3" class="controls_icon3">
+                <img src="photos/controls_icon4.png" alt="controls_icon4" class="controls_icon4">
+                <img src="photos/controls_icon5.png" alt="controls_icon5" class="controls_icon5">
+                <input type="range" min="0" max="100" class="volumn-bar" step="1">
+            </div>
+        </div>
+</body>
+</html>
