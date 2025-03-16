@@ -23,7 +23,7 @@ No Backend: Static content only, no database or server-side functionality.
 
 How to Use
 Clone the repository:
-git clone https://github.com/your-username/Spotify-Clone-HTML-CSS.git
+git clone https://github.com/satish-rt/Spotify-Clone.git
 Open the index.html file in your browser to view the Spotify clone.
 
 Explore the code to understand how the layout and styling are implemented using HTML and CSS.
